@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@stripe/react-stripe-js": "^2.7.2",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-router-dom": "^6.22.3",
+    "stripe": "^16.1.0"
+  },
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "Shopping cart app MERN",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env backend/server",
+    "server": "nodemon --env-file=.env backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Ali Azhar",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
