@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }))
 //To parse cookies
 app.use(cookieParser())
 
-const PORT = REACT_APP_PORT || 3000
+const PORT = process.env.REACT_APP_PORT || 3000
 
 
 
