@@ -5,7 +5,7 @@ import color from 'colors'
 
 const connectDB = async() => {
     try {
-        const conn = await mongoose.connect(process.env.REACT_APP_MONGO_URI.MONGO_URI)
+        const conn = await mongoose.connect(process.env.REACT_APP_MONGO_URI)
 
         console.log(`Connected: ${conn.connection.host}`.cyan.underline)
 
