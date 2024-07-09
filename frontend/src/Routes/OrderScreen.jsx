@@ -116,7 +116,7 @@ function OrderScreen() {
             clientSecret: res.clientSecret,
             elements: elements,
             confirmParams: {
-                return_url: process.env.NODE_ENV === 'production' ? `http://localhost:3000/order/${orderId}` : `http://localhost:5005/order/${orderId}`,
+                return_url: process.env.NODE_ENV === 'production' ? `https://shopease-2wtu.onrender.com/${orderId}` : `http://localhost:5005/order/${orderId}`,
             },
           });
           setShowLoading(false)
