@@ -81,6 +81,7 @@ body{
 .dropDown{
   position: relative;
   display: inline-block;
+  z-index: 2;
  
 }
 .dropDown:hover button{
