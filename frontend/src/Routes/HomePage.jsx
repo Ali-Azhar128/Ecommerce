@@ -70,13 +70,7 @@ function HomePage() {
            renderOnZeroPageCount={null}
          />
            </div>
-
-            
-           
-       
        </div>
-    )
-  
+    ) 
 }
-
 export default HomePage
