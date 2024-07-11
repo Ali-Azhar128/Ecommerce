@@ -102,7 +102,6 @@ function OrderScreen() {
             return
             
         }
-        console.log(res.clientSecret, 'clientSecret')
         if (!res.clientSecret) {
             console.error('clientSecret is missing');
             toast.error('Payment cannot be processed at this time.');

@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useLogoutMutation } from '../slices/usersApiSlice';
 import { deleteCredentials } from '../slices/authSlice';
+import SearchBox from '../components/SearchBox';
 
 
 function Navbar() {
@@ -38,6 +39,7 @@ function Navbar() {
           <h3>PROSHOP</h3>
         </Link>
         <div className="navButtons">
+          <SearchBox/>
          <Link className='link' to={'/cart'}>
           <div className='navBtn1'>
               <FontAwesomeIcon  icon={faCartShopping}>
@@ -46,7 +48,7 @@ function Navbar() {
               {cartItems.length > 0 && <span className='itemCounter'>{cartItems.reduce((a, c) => a + c.qty, 0)}</span>}
               <p>CART</p>
               
-            </div>
+        </div>
         </Link>
           <div className='navBtn2'>
               {userInfo ? (<div className='dropDown'>

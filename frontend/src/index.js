@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './bootstrap.custom.css'
 import { 
   createBrowserRouter,
   createRoutesFromElements,
@@ -49,6 +50,18 @@ const router = createBrowserRouter(
       children: [
         {
           index: true,
+          element: <HomePage/>,
+        },
+        {
+          path: '/search/:keyword',
+          element: <HomePage/>,
+        },
+        {
+          path: '/page/:pageNumber',
+          element: <HomePage/>,
+        },
+        {
+          path: '/search/:keyword/page/:pageNumber',
           element: <HomePage/>,
         },
         {

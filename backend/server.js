@@ -32,10 +32,6 @@ app.use(cookieParser())
 
 const PORT = process.env.REACT_APP_PORT || 3000
 
-
-
-
-
 //middleware
 
 app.use('/api/products', productRoutes)
@@ -44,7 +40,9 @@ app.use('/api/users', userRoutes)
 
 app.use('/api/orders', orderRoutes)
 
+
 app.post('/api/config/stripe', stripePayment)
+
 
 app.use('/api/upload', uploadRoutes)
 

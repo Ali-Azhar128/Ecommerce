@@ -155,11 +155,64 @@ button:disabled{
 .mainPage{
   font-size: 1rem;
   color: #2c3339;
-  margin-left: 150px;
+
   margin-top: 20px;
   padding-top: 0px;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
+  
+}
+
+.mainPage .pagination{
+  display: flex;
+  
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+.mainPage .pagination li{
+  margin-right: 15px;
+  list-style: none;
+  border: 1px solid #2c3339;
+  border-radius: 5px;
+}
+
+.mainPage .pagination li a{
+  padding: 5px 10px;
+}
+
+.pagination .disabled{
+  color: #a3a3a3;
+
+}
+
+.pagination .disabled:hover{
+  cursor: not-allowed !important;
+  background-color: transparent !important;
+  color: #a3a3a3 !important;
+}
+
+.mainPage .pagination li:hover{
+  cursor: pointer;
+  background-color: #2c3339;
+  color: white;
+}
+
+.mainPage .pagination li a{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+
+.mainPage .pagination .active{
+  background-color: #2c3339;
+  color: white;
 }
 
 .prodPage{
@@ -229,7 +282,7 @@ button:disabled{
 
 .productDetails{
   display: flex;
-  margin: 50px 150px;
+
   align-items: center;
 }
 
@@ -300,7 +353,7 @@ button:disabled{
 .backLink p{
   
   color: #606060 !important;
-  margin: 25px 150px;
+  margin: 50px 0px;
   font-weight: 600;
   
 }
@@ -985,9 +1038,12 @@ button:disabled{
 }
 
 .productPage{
+  width: 80%;
+  margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
 
 }
 
@@ -1126,6 +1182,103 @@ button:disabled{
   padding: 0;
 }
 
+.reviewsSection{
+  margin: 25px 0px;
+  width: 50%;
+}
+
+.messageContainer{
+  background-color: #d5eaf7;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 100%;
+  color: #416278;
+  width: 100%;
+}
+
+.formGroup{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+  
+}
+
+.formGroup select{
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.formGroup textarea{
+  padding: 10px;
+}
+
+.reviewsSection button{
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.review{
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review .divider{
+  margin: 20px 0px;
+}
+
+.formGroup label{
+  margin-bottom: 5px;
+}
+
+.reviewComment{
+  margin-top: 15px;
+}
+
+.navigation .itemSearch {
+  margin-right: 20px;
+  display: flex;
+  
+}
+
+.navigation .itemSearch input{
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.navigation .itemSearch input:focus{
+  outline: none;
+  
+
+}
+
+.navigation .itemSearch .button{
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 5px 10px;
+  border: 1px solid white;
+  
+  margin-left: 5px !important;
+}
+
+.navigation .itemSearch .button:hover{
+  background-color: white !important;
+  color: #21262b !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
 
 
 
