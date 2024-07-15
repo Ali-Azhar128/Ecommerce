@@ -50,7 +50,7 @@ function Products() {
     }
 
   return (
-    <>
+    <div className="productDiv">
         {isLoading ? (<Rings height={80} width={80} color="black"/>) : error ? (<MessageContainer variant={'danger'} message={error?.data?.message}/>) : (
             <div className="productPage">
             {
@@ -161,7 +161,7 @@ function Products() {
                     </div>  
         </div>
         )}
-    </>
+    </div>
   )
 }
 

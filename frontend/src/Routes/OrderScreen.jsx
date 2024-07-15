@@ -39,12 +39,7 @@ function OrderScreen() {
 
 
 
-    useEffect(() => {
-        if(stripe){
-            setHideBtn(false)
-        
-        }
-    }, [stripe])
+    
     useEffect(() => {
         async function fetchKey(){
            if(!isLoading && !keyLoading && order){
@@ -231,6 +226,7 @@ function OrderScreen() {
                         {userInfo && userInfo.isAdmin && order.isPaid && !order.isDelivered ? (
                             <button onClick={handleDeliver} className='button' hidden={loadingDeliver}>Mark as Delivered</button>
                         ) :  <button hidden={redirect === 'succeeded' || userInfo.isAdmin} onClick={() => {setHideCard(false)
+                            setHideBtn(false)
 
                         }} className='button'>Debit or Credit Card</button>
                             }
