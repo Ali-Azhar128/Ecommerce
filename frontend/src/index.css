@@ -1254,6 +1254,10 @@ button:disabled{
   
 }
 
+.navigation a{
+  text-decoration: none;
+}
+
 .navigation .itemSearch input{
   padding: 10px 5px;
   border-radius: 5px;

@@ -36,7 +36,7 @@ function Navbar() {
   return (
     <div className='navigation'>
         <Link to={'/products'}>
-          <h3>PROSHOP</h3>
+          <h3>Shop Ease</h3>
         </Link>
         <div className="navButtons">
           <SearchBox/>
