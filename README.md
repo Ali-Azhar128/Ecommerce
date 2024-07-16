@@ -55,7 +55,7 @@ To run this project locally, follow these steps:
    ```
 5. Start the development server:
    ```bash
-   # Run frontend (:3000) & backend (:5000)
+   # Run frontend (:5005) & backend (:3000)
    npm run dev
    ```
 
