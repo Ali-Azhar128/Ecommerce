@@ -202,4 +202,4 @@ This project is licensed under the MIT License.
 
 If you have any questions or feedback, feel free to reach out to me:
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/ali-azhar128)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-azhar128/)
