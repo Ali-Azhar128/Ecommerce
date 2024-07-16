@@ -25,7 +25,7 @@ ShopEase is a dynamic e-commerce platform developed using the MERN (MongoDB, Exp
 
 ## Demo
 
-ou can check out the live demo of ShopEase deployed on Render. [here](https://shopease-2wtu.onrender.com).
+You can check out the live demo of ShopEase deployed on Render. [here](https://shopease-2wtu.onrender.com).
 
 ## Installation
 
@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
    ```
 
-2. Navigate to the project directory::
+2. Navigate to the project directory:
    ```bash
    cd proshop
    ```
@@ -55,8 +55,10 @@ To run this project locally, follow these steps:
    ```
 5. Start the development server:
    ```bash
+   # Run frontend (:3000) & backend (:5000)
    npm run dev
    ```
+
 6. Open the app in your browser at http://localhost:3000.
 
 ## Usage
