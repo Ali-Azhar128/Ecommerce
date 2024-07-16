@@ -12,7 +12,7 @@ ShopEase is a dynamic e-commerce platform developed using the MERN (MongoDB, Exp
 - [API References](#api-references)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](# 🔗-contact)
+- [Contact](#🔗-contact)
 
 ## Features
 
