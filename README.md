@@ -25,7 +25,7 @@ ShopEase is a dynamic e-commerce platform developed using the MERN (MongoDB, Exp
 
 ## Demo
 
-You can check out the live demo of ShopEase deployed on Render. [here](https://shopease-2wtu.onrender.com).
+You can check out the live demo of ShopEase deployed on Render [here](https://shopease-2wtu.onrender.com).
 
 ## Installation
 
