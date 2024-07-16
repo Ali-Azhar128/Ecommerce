@@ -31,24 +31,33 @@ You can check out the live demo of ShopEase deployed on Render. [here](https://s
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the Repository:
 
    ```bash
    git clone https://github.com/Ali-Azhar128/Ecommerce.git
 
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the Project Directory:
    ```bash
    cd proshop
    ```
-3. Install the dependencies (frontend & backend):
+3. Install the Dependencies (frontend & backend):
    ```bash
    npm install
    cd frontend
    npm install
    ```
-4. Create a .env file in the root directory and add your environment variables:
+4. Seed Database
+   ```bash
+   # Import data
+   npm run data:import
+
+   # Destroy data
+   npm run data:destroy
+   ```
+
+5. Create a .env file in the root directory and add your environment variables:
    ```bash
    REACT_APP_PORT = 3000
    REACT_APP_NODE_ENV=your_server
@@ -56,13 +65,13 @@ To run this project locally, follow these steps:
    REACT_APP_JWT_SECRET=your_jwt_secret
    STRIPE_SECRET_KEY=your_stripe_secret_key
    ```
-5. Start the development server:
+6. Start the development server:
    ```bash
    # Run frontend (:5005) & backend (:3000)
    npm run dev
    ```
 
-6. Open the app in your browser at http://localhost:5005.
+7. Open the app in your browser at http://localhost:5005.
 
 ## Usage
 
