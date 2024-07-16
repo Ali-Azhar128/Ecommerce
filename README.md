@@ -48,6 +48,7 @@ To run this project locally, follow these steps:
    ```
 4. Create a .env file in the root directory and add your environment variables:
    ```bash
+   REACT_APP_PORT = 3000
    REACT_APP_NODE_ENV=your_server
    REACT_APP_MONGO_URI=your_mongodb_uri
    REACT_APP_JWT_SECRET=your_jwt_secret
@@ -59,7 +60,7 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-6. Open the app in your browser at http://localhost:3000.
+6. Open the app in your browser at http://localhost:5005.
 
 ## Usage
 
