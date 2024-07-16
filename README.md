@@ -42,8 +42,10 @@ To run this project locally, follow these steps:
    ```bash
    cd proshop
    ```
-3. Install the dependencies:
+3. Install the dependencies (frontend & backend):
    ```bash
+   npm install
+   cd frontend
    npm install
    ```
 4. Create a .env file in the root directory and add your environment variables:
