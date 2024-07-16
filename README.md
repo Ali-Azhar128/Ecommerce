@@ -1,12 +1,6 @@
-
 # ShopEase - MERN Stack E-commerce Project
 
 ShopEase is a dynamic e-commerce platform developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to shop seamlessly with integrated payment options and provides robust admin functionalities for managing products, orders, and users.
-
-
-
-
-
 
 ## Table of Contents
 
@@ -18,13 +12,10 @@ ShopEase is a dynamic e-commerce platform developed using the MERN (MongoDB, Exp
 - [API References](#api-references)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
-
-
-
-
+- [Contact](#🔗 Contact)
 
 ## Features
+
 - Seamless shopping experience with integrated card payment options.
 - Admin-exclusive functionalities for adding, editing, and deleting products.
 - Admins can manage orders, including marking orders as delivered.
@@ -41,24 +32,31 @@ ou can check out the live demo of ShopEase deployed on Render. [here](https://sh
 To run this project locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Ali-Azhar128/Ecommerce.git
+
+   ```
 
 2. Navigate to the project directory::
    ```bash
    cd proshop
+   ```
 3. Install the dependencies:
    ```bash
    npm install
+   ```
 4. Create a .env file in the root directory and add your environment variables:
    ```bash
    REACT_APP_NODE_ENV=your_server
    REACT_APP_MONGO_URI=your_mongodb_uri
    REACT_APP_JWT_SECRET=your_jwt_secret
    STRIPE_SECRET_KEY=your_stripe_secret_key
+   ```
 5. Start the development server:
-    ```bash
-    npm run dev
+   ```bash
+   npm run dev
+   ```
 6. Open the app in your browser at http://localhost:3000.
 
 ## Usage
@@ -93,28 +91,23 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 2. Create your feature branch:
    ```bash
    git checkout -b feature/your-feature-name
+   ```
 3. Commit your changes:
    ```bash
    git commit -m 'Add your feature'
+   ```
 4. Push to the branch:
    ```bash
    git push origin feature/your-feature-name
+   ```
 5. Open a pull request.
 
 ## License
 
 This project is licensed under the MIT License.
 
-
-
-
-
-
-
-
-
-
 ## Features
+
 - Seamless shopping experience with integrated card payment options.
 - Admin-exclusive functionalities for adding, editing, and deleting products.
 - Admins can manage orders, including marking orders as delivered.
@@ -131,24 +124,31 @@ ou can check out the live demo of ShopEase deployed on Render. [here](https://sh
 To run this project locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Ali-Azhar128/Ecommerce.git
+
+   ```
 
 2. Navigate to the project directory::
    ```bash
    cd proshop
+   ```
 3. Install the dependencies:
    ```bash
    npm install
+   ```
 4. Create a .env file in the root directory and add your environment variables:
    ```bash
    REACT_APP_NODE_ENV=your_server
    REACT_APP_MONGO_URI=your_mongodb_uri
    REACT_APP_JWT_SECRET=your_jwt_secret
    STRIPE_SECRET_KEY=your_stripe_secret_key
+   ```
 5. Start the development server:
-    ```bash
-    npm run dev
+   ```bash
+   npm run dev
+   ```
 6. Open the app in your browser at http://localhost:3000.
 
 ## Usage
@@ -183,31 +183,23 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 2. Create your feature branch:
    ```bash
    git checkout -b feature/your-feature-name
+   ```
 3. Commit your changes:
    ```bash
    git commit -m 'Add your feature'
+   ```
 4. Push to the branch:
    ```bash
    git push origin feature/your-feature-name
+   ```
 5. Open a pull request.
 
 ## License
 
 This project is licensed under the MIT License.
-
-
-
-
-
-
-
-
-
 
 ## 🔗 Contact
+
 If you have any questions or feedback, feel free to reach out to me:
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/ali-azhar128)
-
-
-
